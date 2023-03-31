@@ -27,5 +27,3 @@ Array.from(buttons).forEach((button) => {
 		}
 	});
 });
-
-// TODO: make M+ M- functional
