@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum-javascript</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2000' height='2000' viewBox='0 0 100 100'%3E%3Cg stroke='%23CCC' stroke-width='29.9' %3E%3Crect fill='%23F5F5F5' x='-40' y='-60' width='94' height='240'/%3E%3C/g%3E%3C/svg%3E");
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        green: '#02B290',
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="container text-center flex flex-col justify-center item-center my-20">
+        <h1 class="mb-12 text-5xl font-bold">Play Drum</h1>
+        <span class="">
+            <button value="A" class="btn p-4 bg-green m-2 shadow-lg shadow-cyan-400/100">High Tom</button>
+            <button value="S" class="btn p-4 bg-green m-2 shadow-lg shadow-cyan-400/100">Heavy Kick</button>
+            <button value="D" class="btn p-4 bg-green m-2 shadow-lg shadow-cyan-400/100">Tom</button>
+            <button value="F" class="btn p-4 bg-green m-2 shadow-lg shadow-cyan-400/100">Kick Wet</button>
+            <button value="G" class="btn p-4 bg-green m-2 shadow-lg shadow-cyan-400/100">Tom 2</button>
+            <button value="J" class="btn p-4 bg-green m-2 shadow-lg shadow-cyan-400/100">Metal Snare</button>
+            <button value="K" class="btn p-4 bg-green m-2 shadow-lg shadow-cyan-400/100">Metal Timbale</button>
+            <button value="L" class="btn p-4 bg-green m-2 shadow-lg shadow-cyan-400/100">Snare Drum</button>
+        </span>
+    </div>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
